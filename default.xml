@@ -9,6 +9,7 @@
 		sync-j="4"/>
 
 	<!-- CreatorKit repositories -->
+	<project path="build" name="CreatorKit/build" revision="master"/>
 	<project path="docs/creator_docs" name="CreatorKit/creator_docs" revision="master"/>
 	<project path="packages/flow_button_gateway" name="CreatorKit/flow_button_gateway" revision="master"/>
 	<project path="packages/flow_button_sensor" name="CreatorKit/flow_button_sensor" revision="master"/>
