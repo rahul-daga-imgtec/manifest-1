@@ -22,8 +22,6 @@ After above steps, your directory structure looks like:
 |   |       ├──device-manager
 |   |       ├──libflow-ex
 |   |       ├──libflow
-|   |       ├──libflowcore
-|   |       ├──libflowmessaging
 |   |       ├──webscripts
 │   └── openwrt-pkg-feeds
 ├── docs
