@@ -17,13 +17,15 @@ After above steps, your directory structure would be like:
 ├── dist
 │   ├── openwrt
 │   ├── openwrt-ckt-feeds
-|   |       ├──awalwm2m
-|   |       ├──button-gateway
-|   |       ├──device-manager
-|   |       ├──libflow-ex
-|   |       ├──libflow
-|   |       ├──webscripts
+|   |       ├── awalwm2m
+|   |       ├── button-gateway
+|   |       ├── device-manager
+|   |       ├── libflow-ex
+|   |       ├── libflow
+|   |       └── webscripts
 │   └── openwrt-feeds
+|   |       ├── cgilua
+|   |       └── fping
 └── packages
     ├── AwaLWM2M
     ├── button-gateway
