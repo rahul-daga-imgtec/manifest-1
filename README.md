@@ -8,7 +8,7 @@ Manifest for cloning creator kit repositories.
 - repo init -u https://github.com/CreatorKit/manifest.git -b branch_name
 - repo sync
 
-After above steps, your directory structure looks like:
+After above steps, your directory structure would be like:
 ```
 .
 ├── build
@@ -16,19 +16,22 @@ After above steps, your directory structure looks like:
 │   └── contiki
 ├── dist
 │   ├── openwrt
-│   ├── openwrt-img-feeds
-|   |       ├──awalwm2m
-|   |       ├──button-gateway
-|   |       ├──device-manager
-|   |       ├──libflow-ex
-|   |       ├──libflow
-|   |       ├──webscripts
-│   └── openwrt-pkg-feeds
-├── docs
-│   └── creator_docs
+│   ├── openwrt-ckt-feeds
+|   |       ├── awalwm2m
+|   |       ├── button-gateway
+|   |       ├── device-manager
+|   |       ├── libflow-ex
+|   |       ├── libflow
+|   |       └── webscripts
+│   └── openwrt-feeds
+|   |       ├── cgilua
+|   |       └── fping
 └── packages
     ├── AwaLWM2M
+    ├── button-gateway
     ├── button-sensor
+    ├── device-manager
     ├── led-actuator
-    └── libobjects
+    ├── libobjects
+    └── webscripts
 ```
